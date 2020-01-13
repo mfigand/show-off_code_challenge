@@ -25,35 +25,8 @@
       "/app/app/controllers/application_controller.rb": [
         1,
         null
-      ],
-      "/app/app/mailers/application_mailer.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/app/app/models/application_record.rb": [
-        0,
-        0,
-        0
-      ],
-      "/app/app/jobs/application_job.rb": [
-        0,
-        0
-      ],
-      "/app/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/app/app/channels/application_cable/channel.rb": [
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1578955577
+    "timestamp": 1578955984
   }
 }
