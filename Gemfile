@@ -68,6 +68,8 @@ group :test do
   gem 'shoulda-matchers'
   # test data generator
   gem 'factory_bot'
+  # Code coverage
+  gem 'simplecov', require: false
   # Library for stubbing and setting expectations on HTTP requests in Ruby
   gem 'webmock'
   # time travel in tests
