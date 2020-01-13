@@ -58,10 +58,20 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
+  # gem 'capybara', '>= 2.15'
+  # gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  # gem 'chromedriver-helper'
+  # express expected outcomes on collections of an object in an example
+  gem 'rspec-collection_matchers'
+  # one liners for common rails functionality
+  gem 'shoulda-matchers'
+  # test data generator
+  gem 'factory_bot'
+  # Library for stubbing and setting expectations on HTTP requests in Ruby
+  gem 'webmock'
+  # time travel in tests
+  gem 'timecop'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
