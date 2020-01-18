@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_18_112431) do
+ActiveRecord::Schema.define(version: 2020_01_18_115309) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,19 @@ ActiveRecord::Schema.define(version: 2020_01_18_112431) do
     t.index ["last_name"], name: "index_users_on_last_name"
     t.index ["password"], name: "index_users_on_password"
     t.index ["updated_at"], name: "index_users_on_updated_at"
+  end
+
+  create_table "widgets", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "description", null: false
+    t.string "kind", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["created_at"], name: "index_widgets_on_created_at"
+    t.index ["description"], name: "index_widgets_on_description"
+    t.index ["kind"], name: "index_widgets_on_kind"
+    t.index ["name"], name: "index_widgets_on_name"
+    t.index ["updated_at"], name: "index_widgets_on_updated_at"
   end
 
 end
