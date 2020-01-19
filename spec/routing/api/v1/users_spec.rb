@@ -48,4 +48,6 @@ RSpec.describe 'users routing' do
                                                       id: id,
                                                       action: 'destroy')
   end
+  # api_v1_user_widgets GET /api/v1/users/:user_id/widgets(.:format)     api/v1/widgets#index
+  # api_v1_user_widget  GET /api/v1/users/:user_id/widgets/:id(.:format) api/v1/widgets#show
 end
